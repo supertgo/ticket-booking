@@ -1,5 +1,7 @@
 {
   "conventionalCommits.scopes": [
-    "bottom bar"
+    "bottom bar",
+    "main",
+    "style"
   ]
 }

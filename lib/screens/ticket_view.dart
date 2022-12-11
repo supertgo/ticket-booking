@@ -242,7 +242,7 @@ class TicketView extends StatelessWidget {
                             firstText: '${ticket['number']}',
                             secondText: 'Number',
                             alignment: CrossAxisAlignment.end,
-                            isColor: false,
+                            isColor: true,
                           ),
                         ],
                       ),

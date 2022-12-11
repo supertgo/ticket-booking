@@ -198,7 +198,7 @@ class TicketView extends StatelessWidget {
                                 style: Styles.headLineStyle3
                                     .copyWith(color: Colors.white),
                               ),
-                              const Gap(5),
+                              Gap(AppLayout.getHeight(5)),
                               Text(
                                 'Date',
                                 style: Styles.headLineStyle4
@@ -214,7 +214,7 @@ class TicketView extends StatelessWidget {
                                 style: Styles.headLineStyle3
                                     .copyWith(color: Colors.white),
                               ),
-                              const Gap(5),
+                              Gap(AppLayout.getHeight(5)),
                               Text(
                                 'Departure time',
                                 style: Styles.headLineStyle4
@@ -230,7 +230,7 @@ class TicketView extends StatelessWidget {
                                 style: Styles.headLineStyle3
                                     .copyWith(color: Colors.white),
                               ),
-                              const Gap(5),
+                              Gap(AppLayout.getHeight(5)),
                               Text(
                                 'Number',
                                 style: Styles.headLineStyle4

@@ -15,7 +15,9 @@ class HotelScreen extends StatelessWidget {
     return Container(
         width: size.width * 0.6,
         height: AppLayout.getHeight(350),
-        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 17),
+        padding: EdgeInsets.symmetric(
+            horizontal: AppLayout.getWidth(15),
+            vertical: AppLayout.getHeight(17)),
         margin: EdgeInsets.only(
           right: AppLayout.getHeight(17),
           top: AppLayout.getHeight(5),
@@ -43,17 +45,17 @@ class HotelScreen extends StatelessWidget {
               ),
             ),
           ),
-          const Gap(10),
+          Gap(AppLayout.getHeight(10)),
           Text(
             hotel['place'],
             style: Styles.headLineStyle2.copyWith(color: Styles.kakiColor),
           ),
-          const Gap(10),
+          Gap(AppLayout.getHeight(10)),
           Text(
             hotel['destination'],
             style: Styles.headLineStyle3.copyWith(color: Colors.white),
           ),
-          const Gap(10),
+          Gap(AppLayout.getHeight(10)),
           Text(
             '\$${hotel['price']}/night',
             style: Styles.headLineStyle3.copyWith(color: Styles.kakiColor),
